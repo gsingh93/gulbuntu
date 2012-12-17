@@ -9,11 +9,15 @@ To build, simply type `make`. This will generate the `kernel.bin` file in the `i
 
 ### Running
 
-Before emulating the kernel, we'll first make an image file. Type the following command
+Before emulating the kernel, we'll first make an image file. First create an environment variable called GULBUNTU_ROOT that points to the project root directory. You may want to put this in your `.bashrc`.
+
+`export GULBUNTU_ROOT=/path/to/root/directory/`
+
+Then type the following command:
 
 `scripts/package.sh`
 
-**Note: You may have to make the Bash script executable by running `chmod +x scripts/package.sh`**
+**Note: You may have to make the Bash script executable by running `chmod +x scripts/*.sh`**
 
 Now we should have a floppy.img file in the `bin` folder. This image can be burned onto a CD, but we'll be emulating it using Qemu.
 

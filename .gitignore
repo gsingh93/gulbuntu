@@ -1,6 +1,1 @@
-*.tar.gz
-*.img
-*.iso
-*.sh
-obj
-cdcontents
+*.o
