@@ -72,7 +72,7 @@ int command_handler(unsigned char *command) // Handle commands
 	else if (strcmpa(command, (unsigned char*)"cls", len))
 		cls();
 	else
-		putsa("Command not found");
+		putsa((unsigned char*)"Command not found");
 	return 0;
 }
 

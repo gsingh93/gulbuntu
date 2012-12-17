@@ -1,4 +1,6 @@
 *.tar.gz
 *.img
-Object Files
 *.iso
+*.sh
+obj
+cdcontents

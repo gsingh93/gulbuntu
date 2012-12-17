@@ -2,8 +2,8 @@ global loader           ; making entry point visible to linker
 extern kmain            ; kmain is defined elsewhere
 
 section .__mbHeader
- 
-align 0x4
+
+align 4
 
 ; setting up the Multiboot header - see GRUB docs for details
 MODULEALIGN equ  1<<0                   ; align loaded modules on page boundaries
