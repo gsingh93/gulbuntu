@@ -1,4 +1,4 @@
-#include "Includes/functions.h"
+#include "functions.h"
 
 int timer_ticks = 0; // Keeps track of how many ticks the system has been running for
 

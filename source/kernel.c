@@ -1,4 +1,4 @@
-#include "Includes/functions.h"
+#include "functions.h"
 
 void kmain( void* mbd, unsigned int magic )
 {

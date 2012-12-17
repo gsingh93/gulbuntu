@@ -1,4 +1,4 @@
-#include "Includes/functions.h"
+#include "functions.h"
 
 #define SCRWIDTH 200 // Need to figure out these sizes...
 #define SCRHEIGHT 1200

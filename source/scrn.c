@@ -1,4 +1,4 @@
-#include "Includes/functions.h"
+#include "functions.h"
 
 unsigned short *textmemptr; // Text pointer, pointer to video memory
 int attrib = 0x0F; // Background/Foreground Attributes

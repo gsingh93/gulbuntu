@@ -1,1 +1,0 @@
-qemu floppy.img
